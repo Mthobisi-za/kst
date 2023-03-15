@@ -2,32 +2,164 @@
 <html lang="en">
 
 <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./modernizr.custom.js"></script>
+    <script src="./wankypages.jquery.js"></script>
     <link rel="stylesheet" href="./landing.css">
+    <link rel="stylesheet" href="./screen1.css">
+    <link rel="stylesheet" href="./footer.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./animations.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <div class="landing">
-        <div class="text-area">
+    <div id="pages" class="wanky_pages">
+        <div class="landing page1 wanky_page" data-pageid="1">
+            <div class="text-area">
 
-            <img src="./images/Group 3.png" alt="">
-        </div>
-        <div class="menu-tabs">
-            <div class="img-container">
-                <img src="./images/logo.png" alt="">
+                <img src="./images/Group 3.png" alt="">
             </div>
-            <div class="menu-links">
-                <a onclick="listen(this)" class="links">FORWARD</a>
-                <a onclick="listen(this)" class="links">OVERVIEW OF KST</a>
-                <a onclick="listen(this)" class="links">OUR PEOPLE</a>
-                <a onclick="listen(this)" class="links">PROGRAMME OVERVIEW</a>
-                <a onclick="listen(this)" class="links">PROGRAMME REVIEW</a>
-                <a onclick="listen(this)" class="links">COMMUNICATION</a>
-                <a onclick="listen(this)" class="links">FUNDRAISING AND PARTNERSHIPS</a>
-                <a onclick="listen(this)" class="links">FINANCIALS</a>
+            <div class="menu-tabs">
+                <div class="img-container">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="menu-links">
+                    <a href="#2" onclick="listen(this)" class="links">FORWARD</a>
+                    <a onclick="listen(this)" class="links">OVERVIEW OF KST</a>
+                    <a onclick="listen(this)" class="links">OUR PEOPLE</a>
+                    <a onclick="listen(this)" class="links">PROGRAMME OVERVIEW</a>
+                    <a onclick="listen(this)" class="links">PROGRAMME REVIEW</a>
+                    <a onclick="listen(this)" class="links">COMMUNICATION</a>
+                    <a onclick="listen(this)" class="links">FUNDRAISING AND PARTNERSHIPS</a>
+                    <a onclick="listen(this)" class="links">FINANCIALS</a>
+                </div>
+            </div>
+        </div>
+        <div class="page2 wanky_page" data-pageid="2">
+            <div class="top-menu">
+                <div class="top-section">
+                    <div class="left">
+                        <a href="#1"><img class="logo" src="./images/KST-New-Logo-removebg-preview.png" alt="">
+                        </a>
+                    </div>
+                    <div class="right socials">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                      </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                          </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="4" />
+                            <circle cx="12" cy="12" r="3" />
+                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                          </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom-section">
+                    <img src="./images/Group 4.png" alt="">
+                </div>
+                <div class="menu">
+                    <div class="divs-menu">
+                        <div class="div yellow">MEC TATE MAKGOE</div>
+                        <div class="div triangle triangle_1"></div>
+                    </div>
+                    <div class="divs-menu">
+                        <div class="div green">MESSAGE FROM THE CEO</div>
+                        <div class="div triangle triangle_2"></div>
+                    </div>
+                    <div class="divs-menu">
+                        <div class="div red">REFLECTIONS FROM THE KST ADVISORY BOARD CHAIRS</div>
+                        <div class="div triangle triangle_3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="body-content">
+                <div class="content-section">
+                    <div class="iframe">
+                        <div class="iframe-yellow">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/EpmzkwftJOI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            <div class="details">
+                                <p class="title-details">TATE MAGOE</p>
+                                <p class="subtitle-details">FREE STATE MEC FOR <br> EDUCATION</p>
+                            </div>
+                            <br>
+                        </div>
+
+                        <br>
+                        <img src="/images/KST_Logo_copy-updated.png" alt="">
+                    </div>
+                    <div class="space"></div>
+                    <div class="yellow-content-down">
+                    </div>
+                </div>
+                <div class="content-section">
+                    <p class="title-y">PROVINCIAL AND <br> NATIONAL <br> CONTEXT</p>
+                    <p class="text-context">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+                        consectetur
+                    </p>
+                    <br>
+                    <p class="text-context">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    </p><br>
+                    <p class="text-context">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+                    </p>
+                </div>
+            </div>
+            <div class="banner">
+                <p class="banner-text">SCALABLE AND SUSTAINABLE <br> INVESTMENT – WHAT IT LOOKS LIKE <br> AND WHY IT WORKED IN THE <br> FREE STATE.
+
+                </p>
+            </div>
+            <br> <br>
+            <div class="text-section-tab">
+                <p class="text-tab">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                </p>
+                <br> <br>
+                <div class="split-tab">
+                    <div class="left-tab">
+                        <p class="text-tab">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                        </p>
+                    </div>
+                    <div class="right-tab">
+                        <img class="children" src="./images/children-updated.png" alt="">
+                    </div>
+                    <br> <br>
+                </div><br> <br>
+                <p class="text-tab">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                </p><br> <br>
+            </div>
+            <div class="footer">
+                <p class="copyright">&#169; KST Annual Report 2021. All Rights Reserved.</p>
             </div>
         </div>
     </div>
@@ -43,7 +175,12 @@
         ev.style.backgroundColor = '#1DA261'
 
     }
-    var link_s = document.quer
+    $('#pages').wankyPages({
+        selector_prefix: 'wanky_',
+        default_page: '1',
+        animation: 'glueTopBottom'
+    });
 </script>
+
 
 </html>
