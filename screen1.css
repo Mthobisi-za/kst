@@ -180,7 +180,7 @@ body {
 }
 
 .details {
-    width: 560px;
+    width: auto;
     line-height: normal;
     text-align: center;
 }
